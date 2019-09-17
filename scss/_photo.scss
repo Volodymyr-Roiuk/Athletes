@@ -1,0 +1,10 @@
+.photo {
+  position: relative;
+
+  > img {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    transition: border-radius 1s;  
+  }
+}

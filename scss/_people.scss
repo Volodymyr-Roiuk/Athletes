@@ -1,0 +1,13 @@
+.people {
+  display: grid;
+  grid-template-columns: repeat(4, 200px);
+  grid-gap: 30px 30px;
+  margin: 30px auto 0 auto;
+  width: max-content;
+}
+
+@media screen and (max-width: 930px) {
+  .people {
+    grid-template-columns: repeat(2, 200px);
+  }
+}

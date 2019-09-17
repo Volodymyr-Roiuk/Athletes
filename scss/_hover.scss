@@ -1,0 +1,16 @@
+
+.person:hover {
+  background-color: #eee;
+  border-radius: 10px;
+  transform: scale(1.2) translate(0, 20px);
+  z-index: 1;
+
+  .extra {
+    opacity: 1;
+  }
+  .photo {
+    > img {
+      border-radius: 60px;
+    }
+  }
+}
